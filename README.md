@@ -2,79 +2,83 @@
 
 # Sameer Kumar
 
-**Information Science and Engineering student · NIE Mysuru**
+Second-year Information Science and Engineering student at NIE Mysuru.<br>
+I work mostly with Java, React and Python.
 
-Java · Web Development · Data Analysis
+[**Portfolio**](https://sameer-nie-ise-c.s3.ap-southeast-2.amazonaws.com/index.html) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/sameer-kumar-79a14531a) &nbsp;·&nbsp; [GitHub](https://github.com/sameerkumar074518-cloud) &nbsp;·&nbsp; [Email](mailto:sameerkumar074518@gmail.com)
 
 <br>
 
-[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit-60a5fa?style=for-the-badge&logo=amazons3&logoColor=white)](https://sameer-nie-ise-c.s3.ap-southeast-2.amazonaws.com/index.html)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameer-kumar-79a14531a)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sameerkumar074518-cloud)
-
-![HTML5](https://img.shields.io/badge/HTML5-e34f26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572b6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black)
-![AWS S3](https://img.shields.io/badge/Hosted_on-AWS_S3-569a31?style=flat-square&logo=amazons3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-161b22?style=flat-square&logo=html5&logoColor=e34f26)
+![CSS](https://img.shields.io/badge/CSS-161b22?style=flat-square&logo=css3&logoColor=1572b6)
+![JavaScript](https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=f7df1e)
+![AWS S3](https://img.shields.io/badge/AWS_S3-161b22?style=flat-square&logo=amazons3&logoColor=569a31)
 
 </div>
 
----
+<br>
 
-## About
+This repository holds my personal portfolio site. It is one static `index.html` file with no framework, build step or backend, and I host it in an AWS S3 bucket.
 
-This is the source code of my personal portfolio website. It is a single static page built with plain HTML, CSS and JavaScript, with no frameworks, build tools or backend. It is hosted on AWS S3.
+**Live:** https://sameer-nie-ise-c.s3.ap-southeast-2.amazonaws.com/index.html
 
-**Live site:** [sameer-nie-ise-c.s3.ap-southeast-2.amazonaws.com/index.html](https://sameer-nie-ise-c.s3.ap-southeast-2.amazonaws.com/index.html)
-
-## Sections
-
-| Section | What it covers |
-|---|---|
-| Home | Short intro with links to my resume and projects |
-| About | Who I am and what I'm working on |
-| Skills | Languages, frontend, backend, AI APIs, data analysis and tools |
-| Projects | SnapMind, CineVerse, Airbnb Air Quality Dashboard, Audio Deepfake Detection |
-| Education | B.Tech in ISE at NIE Mysuru, expected 2028 |
-| Contact | Email, LinkedIn, GitHub and resume download |
+<br>
 
 ## Projects
 
-- **SnapMind – AI Screenshot Organizer:** a full-stack app that uses OCR and Gemini to sort screenshots into categories and pull out details such as amounts, dates and order IDs. *(React, Node.js, Express, MongoDB, Tesseract.js, Gemini API)*
-- **CineVerse:** a full-stack streaming platform with search, a watchlist and a custom video player. *(React, Node.js, Express, Firebase)*
-- **Airbnb Pricing and Urban Air Quality Dashboard:** a data visualization project on how Airbnb prices relate to city-level air quality, across 45 metropolitan areas and 16,050 listings. It uses synthetic data and shows associations, not causation. *(Python, Pandas, NumPy, SciPy, Statsmodels, Plotly, Streamlit)* · [Repository](https://github.com/Pirate-Hunter-Z0R0/dv-airbnb-aqi)
-- **Audio Deepfake Detection:** a team academic project on telling genuine and manipulated voice recordings apart using machine learning. · [Repository](https://github.com/Pirate-Hunter-Z0R0/audio-deepfake-detection)
+**SnapMind: AI Screenshot Organizer**
+A full-stack app that runs OCR on screenshots and uses Gemini to sort them into categories. It also pulls out amounts, dates, emails, phone numbers and order IDs from the text.
+`React` `Node.js` `Express` `MongoDB` `Tesseract.js` `Gemini API`
 
-## Project structure
+**CineVerse**
+A streaming platform with a React frontend and a Node.js/Express backend. It has search by title and genre, a watchlist and a custom video player, with Firebase for authentication and storage.
+`React` `Node.js` `Express` `Firebase`
+
+**Airbnb Pricing and Urban Air Quality Dashboard**
+A data visualization project on how Airbnb prices relate to city-level air quality, covering 45 metropolitan areas and 16,050 listings. The data is synthetic, and the analysis shows associations, not causation. [Repository](https://github.com/Pirate-Hunter-Z0R0/dv-airbnb-aqi)
+`Python` `Pandas` `NumPy` `SciPy` `Statsmodels` `Plotly` `Streamlit`
+
+**Audio Deepfake Detection**
+A team project from college on telling genuine voice recordings from manipulated ones using machine learning. [Repository](https://github.com/Pirate-Hunter-Z0R0/audio-deepfake-detection)
+`Machine Learning` `Audio Processing` `SVM`
+
+<br>
+
+## Skills
+
+| | |
+|---|---|
+| Languages | Java, Python, JavaScript, TypeScript |
+| Frontend | React, Vite, Tailwind CSS, HTML, CSS |
+| Backend | Node.js, Express, REST APIs, JWT |
+| Databases | MongoDB, Mongoose, Firebase |
+| Data | Pandas, NumPy, SciPy, Statsmodels, Plotly, Streamlit |
+| Tools | Git, GitHub, Vercel, Render |
+
+<br>
+
+## Education
+
+B.Tech in Information Science and Engineering, The National Institute of Engineering, Mysuru
+2024 – 2028 (expected) · CGPA 8.3 / 10
+
+<br>
+
+## Files
 
 ```
-.
-├── index.html                 # the whole portfolio (HTML, CSS and JS in one file)
-└── Sameer Kumar Resume.pdf    # linked from the View / Download Resume buttons
+index.html                 the whole site
+Sameer Kumar Resume.pdf    opened by the View and Download Resume buttons
 ```
 
-## Run locally
+To run it locally, keep both files in one folder and open `index.html` in a browser.
 
-No installation is needed. Keep both files in the same folder and open `index.html` in a browser.
+To deploy, upload both files to the root of the S3 bucket and make them publicly readable. The resume filename has to stay exactly as above, since the page links to `Sameer%20Kumar%20Resume.pdf`.
 
-## Deploy to AWS S3
-
-1. Upload `index.html` and `Sameer Kumar Resume.pdf` to the root of the bucket.
-2. Make sure both files are publicly readable.
-3. Open the site and do a hard refresh (Ctrl+Shift+R) to see the latest version.
-
-The resume filename must stay exactly `Sameer Kumar Resume.pdf`, because `index.html` links to it as `Sameer%20Kumar%20Resume.pdf`.
-
-## Contact
-
-- Email: [sameerkumar074518@gmail.com](mailto:sameerkumar074518@gmail.com)
-- LinkedIn: [sameer-kumar-79a14531a](https://www.linkedin.com/in/sameer-kumar-79a14531a)
-- GitHub: [sameerkumar074518-cloud](https://github.com/sameerkumar074518-cloud)
-
----
+<br>
 
 <div align="center">
 
-© Sameer Kumar
+<sub>© Sameer Kumar</sub>
 
 </div>
